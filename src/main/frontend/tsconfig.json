@@ -1,0 +1,25 @@
+{
+  "version": "2",
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+//    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "lib": ["es7", "dom"],
+//    "moduleResolution": "node",
+    "strictNullChecks": true
+  },
+  "files": [
+    "src/app.ts"
+  ],
+  "include": [
+//    "src/**/*",
+  ],
+
+  "exclude": [
+    "node_modules"
+  ]
+}
